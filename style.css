@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.hero {
+  margin-bottom: 32px;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.role {
+  margin: 0;
+  font-size: 20px;
+  color: #0f766e;
+  font-weight: bold;
+}
+
+.location {
+  margin-top: 8px;
+  color: #52606d;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d9e2ec;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.job + .job {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.meta {
+  color: #52606d;
+  font-size: 14px;
+}
+
+a {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
